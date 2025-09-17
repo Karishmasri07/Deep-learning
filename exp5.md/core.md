@@ -30,7 +30,7 @@ history = model.fit(
 )
 
 score, acc = model.evaluate(x_test, y_test, batch_size=batch_size)
-
+#test case
 import numpy as np
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
